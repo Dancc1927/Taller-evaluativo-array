@@ -52,3 +52,7 @@ function Valores(numeros) {
 let obj = ["palo", "escoba", "trapero" ,"jabon"]
   console.log(obj.pop());
   console.log(obj)
+
+  let color = ["azul", "rojo", "amarillo", "negro"];
+  console.log(color.unshift("morado"));
+  console.log(color);
