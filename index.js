@@ -24,3 +24,8 @@ let numeros = ("1","2","3");
 let texto = ("Ana","Mario")
 let ArrayCombinados = [...numeros, ...texto];
 console.log(ArrayCombinados);
+
+let Duplicar = [1, 2, 2, 3, 3, 4, 5, 1];
+let setUnico = new Set(Duplicar);
+let Unico = [...setUnico];
+console.log(Unico); 
