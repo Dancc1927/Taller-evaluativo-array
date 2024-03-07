@@ -48,3 +48,7 @@ function Valores(numeros) {
   let animal2 = animal1.push("perro");
   console.log(animal2);
   console.log(animal1);
+
+let obj = ["palo", "escoba", "trapero" ,"jabon"]
+  console.log(obj.pop());
+  console.log(obj)
