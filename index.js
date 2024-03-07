@@ -29,3 +29,14 @@ let Duplicar = [1, 2, 2, 3, 3, 4, 5, 1];
 let setUnico = new Set(Duplicar);
 let Unico = [...setUnico];
 console.log(Unico); 
+
+function Valores(numeros) {
+    let valor = [];
+    for (let i = 1; i <= numeros; i++) {
+      valor.push(i * 2); 
+    }
+    return array;
+  }
+  
+  const arrayDinamico = Valores(5);
+  console.log(arrayDinamico); 
