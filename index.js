@@ -66,3 +66,7 @@ let obj = ["palo", "escoba", "trapero" ,"jabon"]
 
   let texto1 = ["Bienvenidos", "a la", "clase"];
   console.log(texto1.join(" "));
+
+  let hombres2 = ["Camilo", "Juan", "Roberto","Sandra", "Paula"];
+  console.log(hombres2.slice(-0, -3));
+  console.log(hombres2);
