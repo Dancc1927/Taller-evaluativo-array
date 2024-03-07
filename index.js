@@ -70,3 +70,8 @@ let obj = ["palo", "escoba", "trapero" ,"jabon"]
   let hombres2 = ["Camilo", "Juan", "Roberto","Sandra", "Paula"];
   console.log(hombres2.slice(-0, -3));
   console.log(hombres2);
+
+  let datos2 = ["Camilo", "Juan", "Roberto","Sandra", "Paula","azul", "rojo", "amarillo", "negro"]
+  let Dat3 = datos2.slice(0, 1).concat(datos2.slice(4));
+console.log(datos2); 
+console.log(Dat3); 
