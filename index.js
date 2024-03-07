@@ -19,3 +19,8 @@ console.log(num.fill(2,4));
 let mensaje = ["Buenas vibras para todos"];
 let MenSa= mensaje.split("  ");
 console.log(MenSa);
+
+let numeros = ("1","2","3");
+let texto = ("Ana","Mario")
+let ArrayCombinados = [...numeros, ...texto];
+console.log(ArrayCombinados);
