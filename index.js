@@ -75,3 +75,7 @@ let obj = ["palo", "escoba", "trapero" ,"jabon"]
   let Dat3 = datos2.slice(0, 1).concat(datos2.slice(4));
 console.log(datos2); 
 console.log(Dat3); 
+
+let gener = ["palo", "escoba", "trapero" ,"jabon", "profe", "payaso"];
+console.log(gener.unshift(...[1, 2]));
+console.log(gener);
