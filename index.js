@@ -15,3 +15,7 @@ console.log(result);
 
 let num = [1,2,3,4];
 console.log(num.fill(2,4));
+
+let mensaje = ["Buenas vibras para todos"];
+let MenSa= mensaje.split("  ");
+console.log(MenSa);
