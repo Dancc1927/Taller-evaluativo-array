@@ -60,3 +60,6 @@ let obj = ["palo", "escoba", "trapero" ,"jabon"]
   let profes =["profe", "payaso", "doctor", "cirujano", "ortopedista"];
   console.log(profes.shift());
   console.log(profes);
+
+  let hombres = ["Camilo", "Juan", "Roberto","Sandra", "Paula"];
+  console.log(hombres.slice(0, 3));
