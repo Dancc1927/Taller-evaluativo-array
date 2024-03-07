@@ -40,3 +40,6 @@ function Valores(numeros) {
   
   const arrayDinamico = Valores(5);
   console.log(arrayDinamico); 
+
+  let animal = ["pajaro", "buho", "araña"]
+  console.log(animal.length);
