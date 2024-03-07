@@ -56,3 +56,7 @@ let obj = ["palo", "escoba", "trapero" ,"jabon"]
   let color = ["azul", "rojo", "amarillo", "negro"];
   console.log(color.unshift("morado"));
   console.log(color);
+
+  let profes =["profe", "payaso", "doctor", "cirujano", "ortopedista"];
+  console.log(profes.shift());
+  console.log(profes);
