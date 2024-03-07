@@ -43,3 +43,8 @@ function Valores(numeros) {
 
   let animal = ["pajaro", "buho", "araña"]
   console.log(animal.length);
+
+  let animal1 = ["araña", "buho", "pajaro"];
+  let animal2 = animal1.push("perro");
+  console.log(animal2);
+  console.log(animal1);
